@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "upstream"]
+	url = https://sahil19893@bitbucket.org/sahil19893/majestica_new.git
+	fetch = +refs/heads/master:refs/remotes/upstream/master
+[branch "master"]
+	remote = upstream
+	merge = refs/heads/master
